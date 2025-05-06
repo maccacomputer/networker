@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.stripStatus = new System.Windows.Forms.ToolStripStatusLabel();
             this.statusScan = new System.Windows.Forms.ToolStripProgressBar();
@@ -262,7 +261,7 @@
             // stripSTART
             // 
             this.stripSTART.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.stripSTART.Image = ((System.Drawing.Image)(resources.GetObject("stripSTART.Image")));
+            this.stripSTART.Image = global::networker.Properties.Resources.media_play_green;
             this.stripSTART.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.stripSTART.Name = "stripSTART";
             this.stripSTART.Size = new System.Drawing.Size(23, 22);
@@ -271,7 +270,7 @@
             // stripSTOP
             // 
             this.stripSTOP.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.stripSTOP.Image = ((System.Drawing.Image)(resources.GetObject("stripSTOP.Image")));
+            this.stripSTOP.Image = global::networker.Properties.Resources.stop;
             this.stripSTOP.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.stripSTOP.Name = "stripSTOP";
             this.stripSTOP.Size = new System.Drawing.Size(23, 22);
@@ -285,7 +284,7 @@
             // stripRESCAN
             // 
             this.stripRESCAN.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.stripRESCAN.Image = ((System.Drawing.Image)(resources.GetObject("stripRESCAN.Image")));
+            this.stripRESCAN.Image = global::networker.Properties.Resources.refresh;
             this.stripRESCAN.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.stripRESCAN.Name = "stripRESCAN";
             this.stripRESCAN.Size = new System.Drawing.Size(23, 22);
